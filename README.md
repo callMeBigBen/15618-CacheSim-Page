@@ -1,7 +1,7 @@
 # 15618 Multi-Core Cache Simulator
 
 ## Links
-- See [here](#) for the proposal.
+- See [here](../proposal.pdf) for the proposal.
 - [This](#) is the link to the project website.
 - [This](#) is the link to the project repository.
 
