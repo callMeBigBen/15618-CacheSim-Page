@@ -91,3 +91,26 @@ We aim to have an interactive demo showing the capabilities of our simulator. We
 |3            | Gather traces using PIN tool |
 |4            | Perform analysis and gather data using simulator |
 |5            | Work on report and extending simulator to directory based protocol |
+
+## Updated Schedule for Project Milestone
+
+We've working diligently to keep to the schedule. So far we've finished those checkpoints:
+
+1. Study SST API and start build a cache component
+
+We also finished part of those checkpoints:
+
+1. Complete implementation of cache
+2. Gather traces using PIN tool
+
+Below is the updated schedule for the coming 3 weeks in half-week granularity (between milestone and project deadline).
+
+| Week Number | Checkpoint |
+|-------------|------------|
+|0.5          | Complete implementation of cache component |
+|1.0          | Complete implementation of bus and arbitrator |
+|1.5          | Devise and generate characteristic cache traces using Pintool | 
+|2.0          | Perform analysis and gather data using our simulator |
+|2.5          | Complete the extended implementation of directory based protocol |
+|3.0          | Work on report and poster session prep |
+
