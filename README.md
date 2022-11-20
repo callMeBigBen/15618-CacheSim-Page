@@ -94,23 +94,23 @@ We aim to have an interactive demo showing the capabilities of our simulator. We
 
 ## Updated Schedule for Project Milestone
 
-We've working diligently to keep to the schedule. So far we've finished those checkpoints:
+We've been working diligently to keep to the schedule. So far we've completed the following portions:
 
-1. Study SST API and start build a cache component
-
-We also finished part of those checkpoints:
-
-1. Complete implementation of cache
-2. Gather traces using PIN tool
+1. Study SST API
+2. Start building a cache component
+3. Understand how to gather multi-threaded memory traces using PIN tool
+4. Completed development for simulated CPU load store generator
 
 Below is the updated schedule for the coming 3 weeks in half-week granularity (between milestone and project deadline).
 
-| Week Number | Checkpoint |
-|-------------|------------|
-|0.5          | Complete implementation of cache component |
-|1.0          | Complete implementation of bus and arbitrator |
-|1.5          | Devise and generate characteristic cache traces using Pintool | 
-|2.0          | Perform analysis and gather data using our simulator |
-|2.5          | Complete the extended implementation of directory based protocol |
-|3.0          | Work on report and poster session prep |
+| Week Number | Checkpoint | Assignee |
+|-------------|------------|----------|
+|0.5          | Complete implementation of cache component | Tanay |
+|1.0          | Complete implementation of bus and arbitrator | Xuan |
+|1.5          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both |
+|1.5          | Generate characteristic cache traces using Pintool | Both |
+|2.0          | Perform analysis and gather data using our simulator | Both |
+|2.5          | Complete the extended implementation of directory component | Xuan |
+|2.5          | Incoporate changes to cache and bus for directory based protocol | Tanay |
+|3.0          | Work on report and poster session prep | Both |
 
