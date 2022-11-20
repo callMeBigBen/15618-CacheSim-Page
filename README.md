@@ -92,14 +92,31 @@ We aim to have an interactive demo showing the capabilities of our simulator. We
 |4            | Perform analysis and gather data using simulator |
 |5            | Work on report and extending simulator to directory based protocol |
 
+
+## Assumptions
+
+As we began the development process, we made the following assumptions for our multi-core cache coherence simulator:
+1. At any time, each processor has only one outstanding request
+2. The bus only support atomic transaction
+3. We don't support read and write to actual data. We only concern the addresses issued by each processor
+
 ## Updated Schedule for Project Milestone
 
 We've been working diligently to keep to the schedule. So far we've completed the following portions:
 
-1. Study SST API
-2. Start building a cache component
-3. Understand how to gather multi-threaded memory traces using PIN tool
-4. Completed development for simulated CPU load store generator
+1. Study SST Core API
+  - We went through the SST Core documentation explaining the basic primitives components and APIs
+  - We also checked out the tutorials online and the simple examples given in the SST-Elements repository
+  - The next step was building the SST-Core and SST-Elements repository locally and executing a few examples to get hands-on and understand the process of building our own components on top of SST-Core.
+2. Completed development for simulated CPU load store generator
+3. Start building a cache component
+  - We have already started with the basic development process of a multi-core cache.
+  - The cache would have three ports
+    - One to receive requests and transmit responses back to the processor
+    - Second to submit requests to the bus arbitrator to access the bus
+    - Third to transmit the actual request on the bus and receive the response
+  - We have compleeted the initial development process of the cache communicating with the CPU load store generator
+4. Understand how to gather multi-threaded memory traces using PIN tool
 
 Below is the updated schedule for the coming 3 weeks in half-week granularity (between milestone and project deadline).
 
