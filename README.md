@@ -3,7 +3,7 @@
 ## Links
 - See [here](https://github.com/callMeBigBen/15618-CacheSim-Page/blob/master/proposal.pdf) for the proposal.
 - [This](#) is the link to the project website.
-- [This](#) is the link to the project repository.
+- [This](https://github.com/callMeBigBen/15618-CacheSim-Page) is the link to the project repository.
 
 ## Summary
 We are going to implement a trace-driven multicore cache simulator supporting both snooping and directory based cache coherence protocols. We further want to perform workload analysis for program with different access patterns, locality, sharing, and the effect of different interconnect topologies on cache performance.
@@ -83,10 +83,11 @@ We aim to have an interactive demo showing the capabilities of our simulator. We
 - We will use C++ as our developing language.
 
 ## SCHEDULE
+
 | Week Number | Checkpoint |
 |-------------|------------|
-|1            |Study SST API and start build a cache component|
-|2            |Complete implementation of cache|
-|3            |Gather traces using PIN tool|
-|4            |Perform analysis and gather data using simulator|
-|5            |Work on report and extending simulator to directory based protocol|
+|1            | Study SST API and start build a cache component |
+|2            | Complete implementation of cache |
+|3            | Gather traces using PIN tool |
+|4            | Perform analysis and gather data using simulator |
+|5            | Work on report and extending simulator to directory based protocol |
