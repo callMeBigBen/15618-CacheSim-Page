@@ -128,14 +128,14 @@ Below is the updated schedule for the coming 2 weeks in half-week granularity (b
 
 | Week Number | Checkpoint | Assignee | Status |
 |-------------|------------|----------| ------ |
-|0.25          | Complete implementation of cache component | Tanay | Done |
-|0.25          | Complete implementation of bus and arbitrator | Xuan | Done |
-|0.5         | Enhance implementation of cache component for MESI protocol | Tanay | In progress |
-|1.0          | Enhance implementation to incorporate non-blocking cache semantics | Both | In progress |
-|1.25          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both | In progress |
-|1.25          | Generate characteristic cache traces using Pintool | Both | In progress |
-|1.5          | Perform analysis and gather data using our simulator | Both | To Do |
-|1.5          | Complete the extended implementation of directory component | Xuan | To Do |
-|1.75          | Incoporate changes to cache and bus for directory based protocol | Tanay | To Do |
-|2.0          | Work on report and poster session prep | Both | To Do |
+|0.5          | Complete implementation of cache component | Tanay | Done |
+|1.0          | Complete implementation of bus and arbitrator | Xuan | Done |
+|1.5         | Enhance implementation of cache component for MESI protocol and additional statistics | Tanay | In progress |
+|1.75         | Enhance implementation to incorporate non-blocking cache semantics and additional statistics | Both | In progress |
+|2.0          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both | In progress |
+|2.0          | Generate characteristic cache traces using Pintool | Both | In progress |
+|2.25          | Perform analysis and gather data using our simulator | Both | To Do |
+|2.5          | Complete the extended implementation of directory component | Xuan | To Do |
+|2.75          | Incoporate changes to cache and bus for directory based protocol | Tanay | To Do |
+|3.0         | Work on report and poster session prep | Both | To Do |
 
