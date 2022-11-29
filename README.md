@@ -129,8 +129,9 @@ Below is the updated schedule for the coming 3 weeks in half-week granularity (b
 |0.5          | Complete implementation of cache component | Tanay | Done |
 |1.0          | Complete implementation of bus and arbitrator | Xuan | Done |
 |1.25         | Enhance implementation of cache component for MESI protocol | Tanay | In progress |
-|1.5          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both | In progress |
-|1.5          | Generate characteristic cache traces using Pintool | Both | In progress |
+|1.5          | Enhance implementation to incorporate non-blocking cache semantics | Both | In progress |
+|1.75          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both | In progress |
+|1.75          | Generate characteristic cache traces using Pintool | Both | In progress |
 |2.0          | Perform analysis and gather data using our simulator | Both | To Do |
 |2.5          | Complete the extended implementation of directory component | Xuan | To Do |
 |2.5          | Incoporate changes to cache and bus for directory based protocol | Tanay | To Do |
