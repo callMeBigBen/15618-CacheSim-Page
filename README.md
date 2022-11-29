@@ -61,19 +61,18 @@ We aim to analyze and gather a concrete understanding of programs with different
 
 #### DEMO
 We aim to have an interactive demo showing the capabilities of our simulator. We plan to present insights such as reporting the following statistics - 
-1. Different types of cache misses - 
-  - Cold
-  - Capacity
-  - Conflict
-  - **Coherency**
+1. Different types of cache statistics - 
+  - Miss rate
+  - Number of invalidations due to coherecncy protocol
 2. Bus Traffic Classficiation - 
-  - Memory traffic
-  - Coherency traffic
+  - Memory traffic: Request served directly from memory
+  - Coherency traffic: Request served from one of the caches due to sharing
 3. Latency of different cache events
   - Read
   - Write
 4. Effect of cache block size on performance
-5. Scalability of cache coherency implementation styles (125%)
+5. Study the effect of different types of memory access patterns and sharing (such as Ocean simulation, stencil etc) to gather insights from the simulator
+6. Scalability of cache coherency implementation styles (125%)
  - snoop-based
  - directory based
 
