@@ -166,3 +166,11 @@ We aim to present our deliverables in terms of graphs
 4. Miss rate vs total cache size
 5. Coherence Traffic vs Programs with different access patterns
 6. Memory Traffic vs Programs with different access patterns
+
+## Oustanding Concerns
+
+We primarily have the following tasks remaining
+1. Enhance cache implementation to incorporate non-blocking semantics
+2. Generate test plan for carrying out performance study using our simulator (XTSim)
+
+We are majorly concerned with the remaining time we have since we're doing an early poster session. We are confident of achieving the 100% goal but are not completely sure of completing the 125% goal of enhancing the implementation to incorporate directory based coherency protocol. 
