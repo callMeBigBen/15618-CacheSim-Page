@@ -70,7 +70,7 @@ We aim to have an interactive demo showing the capabilities of our simulator. We
 3. Latency of different cache events
   - Read
   - Write
-4. Effect of cache block size on performance
+4. Effect of cache block size on performance producing a plot of miss rate vs cache block size
 5. Study the effect of different types of memory access patterns and sharing (such as Ocean simulation, stencil etc) to gather insights from the simulator
 6. Scalability of cache coherency implementation styles (125%)
  - snoop-based
@@ -123,7 +123,7 @@ We've been working diligently to keep to the schedule. So far we've completed th
   - Multi-core cache with MSI coherence protocol
 5. Understand how to gather multi-threaded memory traces using PIN tool
 
-Below is the updated schedule for the coming 2 weeks in half-week granularity (between milestone and project deadline).
+Below is the updated schedule for the coming 2 weeks in half-week granularity (between milestone and project deadline). 
 
 | Week Number | Checkpoint | Assignee | Status |
 |-------------|------------|----------| ------ |
@@ -138,3 +138,31 @@ Below is the updated schedule for the coming 2 weeks in half-week granularity (b
 |2.75          | Incoporate changes to cache and bus for directory based protocol | Tanay | To Do |
 |3.0         | Work on report and poster session prep | Both | To Do |
 
+## Updated Goals and Deliverables
+
+We have been sticking farily well to the planned schedule and targeted development goals. We already have a working multi-core cache coherency simulator with the following features:
+1. Variable cache block size
+2. Variable total cache size
+3. Configurable associativity
+4. Configurable replacement policy
+  - Round robin
+  - LRU
+  - MRU
+5. Configurable cache coherence protocol
+  - MSI
+  - MESI ( in progress )
+6. Configurable arbitration policy:
+  - Rouund robin
+  - FIFO
+
+In the upcoming weeks we plan to enhance the implementation to inocporate non-blocking cache semnantics after discussing it and taking feedback from Professor Skarlatos. Post that we would carry out performance studies using our simulator to gather insight into the behaviour of shared memory parallel programs with different communication patterns and plan to reproduce what we learned in class regarding artifactual communication with actual data and statistics collected using our simulator (XTSim). 
+
+Since our poster session is on December 9th, leaving us with less than 10 days, we are skeptical of achieving our 125% goal but will try our best to keep in line with original GOALs and deliverables. 
+
+We aim to present our deliverables in terms of graphs 
+1. Miss rate vs Programs with different access patterns
+2. Number of invalidations vs Programs with different access patterns
+3. Miss rate vs cache block size
+4. Miss rate vs total cache size
+5. Coherence Traffic vs Programs with different access patterns
+6. Memory Traffic vs Programs with different access patterns
