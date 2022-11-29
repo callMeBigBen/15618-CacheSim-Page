@@ -3,7 +3,7 @@
 ## Links
 - See [here](https://github.com/callMeBigBen/15618-CacheSim-Page/blob/master/proposal.pdf) for the proposal.
 - [This](#) is the link to the project website.
-- [This](https://github.com/callMeBigBen/15618-CacheSim-Page) is the link to the project repository.
+- [This](https://github.com/tanayasija/SST-CacheSim) is the link to the project repository.
 
 ## Summary
 We are going to implement a trace-driven multicore cache simulator supporting both snooping and directory based cache coherence protocols. We further want to perform workload analysis for program with different access patterns, locality, sharing, and the effect of different interconnect topologies on cache performance.
@@ -109,25 +109,31 @@ We've been working diligently to keep to the schedule. So far we've completed th
   - We also checked out the tutorials online and the simple examples given in the SST-Elements repository
   - The next step was building the SST-Core and SST-Elements repository locally and executing a few examples to get hands-on and understand the process of building our own components on top of SST-Core.
 2. Completed development for simulated CPU load store generator
-3. Start building a cache component
-  - We have already started with the basic development process of a multi-core cache.
-  - The cache would have three ports
+3. Completed building a cache component
+  - We have already completed the basic development process of a multi-core cache.
+  - The cache has three ports
     - One to receive requests and transmit responses back to the processor
     - Second to submit requests to the bus arbitrator to access the bus
     - Third to transmit the actual request on the bus and receive the response
-  - We have compleeted the initial development process of the cache communicating with the CPU load store generator
-4. Understand how to gather multi-threaded memory traces using PIN tool
+  - We have a working implementation with broadcast based MSI cache coherency protocol
+4. Tested the complete implementation on a trace computing the sum of an array in parallel
+  - Broadcast based interconnect
+  - Arbiter with round-robin and FIFO policies
+  - Multi-core cache with MSI coherence protocol
+5. Understand how to gather multi-threaded memory traces using PIN tool
 
 Below is the updated schedule for the coming 3 weeks in half-week granularity (between milestone and project deadline).
 
-| Week Number | Checkpoint | Assignee |
-|-------------|------------|----------|
-|0.5          | Complete implementation of cache component | Tanay |
-|1.0          | Complete implementation of bus and arbitrator | Xuan |
-|1.5          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both |
-|1.5          | Generate characteristic cache traces using Pintool | Both |
-|2.0          | Perform analysis and gather data using our simulator | Both |
-|2.5          | Complete the extended implementation of directory component | Xuan |
-|2.5          | Incoporate changes to cache and bus for directory based protocol | Tanay |
-|3.0          | Work on report and poster session prep | Both |
+| Week Number | Checkpoint | Assignee | Status |
+|-------------|------------|----------| ------ |
+|0.5          | Complete implementation of cache component | Tanay | Done |
+|1.0          | Complete implementation of bus and arbitrator | Xuan | Done |
+|1.25         | Enhance implementation of cache component for MESI protocol | Tanay | In progress |
+|1.5          | Devise characteristic multi-threaded programs to stress test simulator and study workload patterns | Both | In progress |
+|1.5          | Generate characteristic cache traces using Pintool | Both | In progress |
+|2.0          | Perform analysis and gather data using our simulator | Both | To Do |
+|2.5          | Complete the extended implementation of directory component | Xuan | To Do |
+|2.5          | Incoporate changes to cache and bus for directory based protocol | Tanay | To Do |
+|3.0          | Work on report and poster session prep | Both | To Do |
+
 
