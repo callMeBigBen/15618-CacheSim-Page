@@ -100,6 +100,8 @@ As we began the development process, we made the following assumptions for our m
 2. The bus only support atomic transaction
 3. We don't support read and write to actual data. We only concern the addresses issued by each processor
 
+As part of this project we plan to remove assumption 1 by enhancing the cache implementation to incorporate non-blocking semantics.
+
 ## Updated Schedule for Project Milestone
 
 We've been working diligently to keep to the schedule. So far we've completed the following portions:
@@ -136,5 +138,4 @@ Below is the updated schedule for the coming 2 weeks in half-week granularity (b
 |1.5          | Complete the extended implementation of directory component | Xuan | To Do |
 |1.75          | Incoporate changes to cache and bus for directory based protocol | Tanay | To Do |
 |2.0          | Work on report and poster session prep | Both | To Do |
-
 
