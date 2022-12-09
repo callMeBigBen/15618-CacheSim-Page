@@ -3,6 +3,7 @@
 ## Links
 - See [here](https://github.com/callMeBigBen/15618-CacheSim-Page/blob/master/proposal.pdf) for the proposal.
 - See [here](https://github.com/callMeBigBen/15618-CacheSim-Page/blob/master/milestone.pdf) for the milestone report.
+- See [here](https://github.com/callMeBigBen/15618-CacheSim-Page/blob/master/final.pdf) for the final report.
 - [This](#) is the link to the project website.
 - [This](https://github.com/tanayasija/SST-CacheSim) is the link to the project repository.
 
